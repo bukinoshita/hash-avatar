@@ -11,14 +11,29 @@
     "tinycolor2": "^1.4.1"
   },
   "scripts": {
-    "test": "xo"
+    "precommit": "lint-staged",
+    "test": "node_modules/.bin/xo"
   },
   "devDependencies": {
+    "eslint-config-prettier": "^2.1.0",
+    "husky": "^0.13.3",
+    "lint-staged": "^3.4.2",
+    "prettier": "^1.3.1",
     "xo": "^0.18.2"
   },
   "xo": {
+    "extends": [
+      "prettier"
+    ],
     "space": true,
     "semicolon": false,
     "esnext": true
+  },
+  "lint-staged": {
+    "*.js": [
+      "npm run test",
+      "prettier --semi false --single-quote --write",
+      "git add"
+    ]
   }
 }

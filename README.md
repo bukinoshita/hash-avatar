@@ -26,9 +26,15 @@ Required
 Type: `number`<br/>
 Required
 
+## Demo
+
+![](https://media.giphy.com/media/3og0IAXrjGYpBG4SJy/giphy.gif)
+
 ## Related
 
 - [react-hash-avatar](https://github.com/bukinoshita/react-hash-avatar) — React hash avatar algorithm
 
 ## License
 [MIT](https://github.com/bukinoshita/hash-avatar/blob/master/LICENSE) &copy; Bu Kinoshita
+
+Thanks to [rauchg](https://twitter.com/rauchg)

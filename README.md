@@ -1,4 +1,4 @@
-# hash-avatar
+# hash-avatar [![Build Status](https://travis-ci.org/bukinoshita/hash-avatar.svg?branch=master)](https://travis-ci.org/bukinoshita/hash-avatar)
 
 > Hash avatar algorithm
 

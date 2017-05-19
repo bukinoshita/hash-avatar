@@ -9,5 +9,16 @@
   "dependencies": {
     "string-hash": "^1.1.3",
     "tinycolor2": "^1.4.1"
+  },
+  "scripts": {
+    "test": "xo"
+  },
+  "devDependencies": {
+    "xo": "^0.18.2"
+  },
+  "xo": {
+    "space": true,
+    "semicolon": false,
+    "esnext": true
   }
 }

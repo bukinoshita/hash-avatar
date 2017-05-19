@@ -3,9 +3,9 @@
 const hash = require('string-hash')
 const color = require('tinycolor2')
 
-module.exports = (uid, {size} = {}) => {
+module.exports = (uid, { size } = {}) => {
   const n = hash(uid)
-  const c1 = color({h: n % 360, s: 0.95, l: 0.5})
+  const c1 = color({ h: n % 360, s: 0.95, l: 0.5 })
   const c1_ = c1.toHexString()
   const c2 = c1.triad()[1].toHexString()
 

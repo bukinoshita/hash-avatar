@@ -684,9 +684,9 @@ execa@^0.5.0:
     signal-exit "^3.0.0"
     strip-eof "^1.0.0"
 
-execa@^0.6.0:
-  version "0.6.3"
-  resolved "https://registry.yarnpkg.com/execa/-/execa-0.6.3.tgz#57b69a594f081759c69e5370f0d17b9cb11658fe"
+execa@^0.7.0:
+  version "0.7.0"
+  resolved "https://registry.yarnpkg.com/execa/-/execa-0.7.0.tgz#944becd34cc41ee32a63a9faf27ad5a65fc59777"
   dependencies:
     cross-spawn "^5.0.1"
     get-stream "^3.0.0"
@@ -1141,16 +1141,18 @@ levn@^0.3.0, levn@~0.3.0:
     prelude-ls "~1.1.2"
     type-check "~0.3.2"
 
-lint-staged@3.4.2:
-  version "3.4.2"
-  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-3.4.2.tgz#9cd1c0e4e477326c2696802a8377c22f92d65e79"
+lint-staged@3.6.1:
+  version "3.6.1"
+  resolved "https://registry.yarnpkg.com/lint-staged/-/lint-staged-3.6.1.tgz#24423c8b7bd99d96e15acd1ac8cb392a78e58582"
   dependencies:
     app-root-path "^2.0.0"
     cosmiconfig "^1.1.0"
-    execa "^0.6.0"
+    execa "^0.7.0"
     listr "^0.12.0"
+    lodash.chunk "^4.2.0"
     minimatch "^3.0.0"
     npm-which "^3.0.1"
+    p-map "^1.1.1"
     staged-git-files "0.0.4"
 
 listr-silent-renderer@^1.1.1:
@@ -1229,6 +1231,10 @@ locate-path@^2.0.0:
 lodash.camelcase@^4.1.1:
   version "4.3.0"
   resolved "https://registry.yarnpkg.com/lodash.camelcase/-/lodash.camelcase-4.3.0.tgz#b28aa6288a2b9fc651035c7711f65ab6190331a6"
+
+lodash.chunk@^4.2.0:
+  version "4.2.0"
+  resolved "https://registry.yarnpkg.com/lodash.chunk/-/lodash.chunk-4.2.0.tgz#66e5ce1f76ed27b4303d8c6512e8d1216e8106bc"
 
 lodash.cond@^4.3.0:
   version "4.5.2"
